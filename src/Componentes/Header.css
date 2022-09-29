@@ -1,0 +1,77 @@
+body {
+    background-image: url('./Img/Grupo\ de\ máscara\ 2.png');
+    background-size: 1366px 768px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure img {
+    top: 91px;
+    left: 97px;
+    width: 68px;
+    height: 61px;
+    /* UI Properties */
+    background: transparent url('./Img/RC.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.top-menu {
+    top: 81px;
+    left: 1197px;
+}
+
+.top-menu ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 635px;
+    height: 81px;
+    opacity: 1;
+}
+
+.top-menu ul li:nth-child(1n) li:nth-child(2n) {
+    top: 104px;
+    left: 1197px;
+    width: 90px;
+    height: 30px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 24px/32px Hurme Geometric Sans 1;
+    letter-spacing: 2.52px;
+    color: #373737;
+    opacity: 1;
+}
+
+.top-menu ul li:nth-child(2n) {
+    left: 1375px;
+    width: 106px;
+}
+
+.top-menu ul li:nth-child(3n) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 81px;
+    left: 1569px;
+    width: 263px;
+    height: 81px;
+    /* UI Properties */
+    border: 5px solid #373737;
+    opacity: 1;
+}
+
+.main-title {
+    top: 680px;
+    left: 618px;
+    width: 685px;
+    height: 191px;
+    text-align: left;
+    font: normal normal 600 150px/191px Hurme Geometric Sans 1;
+    letter-spacing: 15.75px;
+    color: #373737;
+    opacity: 1;
+}
